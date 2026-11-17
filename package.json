@@ -1,0 +1,14 @@
+{
+  "name": "roblox-shorts-renderer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node src/render.js"
+  },
+  "dependencies": {
+    "ffmpeg-static": "^5.2.0",
+    "puppeteer": "^24.10.2",
+    "three": "^0.177.0"
+  }
+}
