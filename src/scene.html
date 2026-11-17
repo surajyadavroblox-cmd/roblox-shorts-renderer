@@ -2,12 +2,34 @@
 <html>
 <head>
   <meta charset="utf-8">
+
   <style>
-    html,body { margin:0; width:100%; height:100%; overflow:hidden; background:#87ceeb; }
-    canvas { display:block; }
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #87ceeb;
+    }
+
+    canvas {
+      display: block;
+    }
   </style>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "/node_modules/three/build/three.module.js"
+    }
+  }
+  </script>
+
 </head>
+
 <body>
-<script type="module" src="./scene.js"></script>
+
+  <script type="module" src="./scene.js"></script>
+
 </body>
 </html>
